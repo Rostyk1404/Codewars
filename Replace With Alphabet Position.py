@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/replace-with-alphabet-position/train/python/5d24589e2cf4820015c59370
+
     Welcome.
 
     In this kata you are required to, given a string, replace every letter with its position in the alphabet.

@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/converting-12-hour-time-to-24-hour-time/train/python
+
     Given a time in AM/PM format as a string, convert it to military (24-hour) time as a string.
 
     Midnight is 12:00:00AM on a 12-hour clock, and 00:00:00 on a 24-hour clock. Noon is 12:00:00PM on a 12-hour clock,

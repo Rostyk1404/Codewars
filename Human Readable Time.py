@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/human-readable-time/train/python/5d24b5c70fb98b84732b5ec3
+
     Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable
     format (HH:MM:SS)
 

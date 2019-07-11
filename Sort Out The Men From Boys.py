@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/sort-out-the-men-from-boys-1/train/python
+
     Scenario
         Now that the competition gets tough it will Sort out the men from the boys .
 

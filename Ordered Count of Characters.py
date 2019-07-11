@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/ordered-count-of-characters/train/python
+
     Count the number of occurrences of each character and return it as a list of tuples in order of appearance.
 
     Example:
@@ -21,9 +25,8 @@
 def ordered_count(input):
     extra_list = []
     new_list = []
-
     for x in list(input):
-        if x not in extra_list:
+        if input not in extra_list:
             new_list.append((x, input.count(x)))
             extra_list.append(x)
     return new_list

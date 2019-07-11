@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/find-the-2nd-largest-integer-in-array/train/python
+
     Find the 2nd largest integer in array If the array has no 2nd largest integer then return nil. Reject all non
     integers elements and then find the 2nd largest integer in array
 
