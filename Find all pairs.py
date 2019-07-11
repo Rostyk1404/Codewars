@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/find-all-pairs-1/train/python
+
     You are given array of integers, your task will be to count all pairs in that array and return their count.
 
     Notes:

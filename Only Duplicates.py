@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/only-duplicates/train/python
+
     Given a string, remove any characters that are unique from the string.
 
     Example:

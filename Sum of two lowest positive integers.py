@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/train/python
+
     Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive
     integers. No floats or non-positive integers will be passed.
 

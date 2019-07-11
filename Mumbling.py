@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/mumbling/train/python
+
     This time no story, no theory. The examples below show you how to write function accum:
 
     Examples:
@@ -23,4 +27,5 @@ def accum(s):
     counter = 0
     for x in s:
         new_list.append(x.upper() + (x.lower() * counter))
+        counter += 1
     return "-".join(new_list)

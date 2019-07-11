@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/570f6436b29c708a32000826/solutions/python
+
     You need to write a function, that returns the first non-repeated character in the given string.
 
     For example for string "test" function should return 'e'.

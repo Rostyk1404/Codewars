@@ -1,4 +1,8 @@
 """
+    Kata source :
+
+        https://www.codewars.com/kata/students-final-grade/train/python
+
     Create a function finalGrade, which calculates the final grade of a student depending on two parameters:
         a grade for the exam and a number of completed projects.
 
