@@ -27,7 +27,7 @@ def get_military_time(time):
     return datetime.strptime(time, "%I:%M:%S%p").strftime("%H:%M:%S")
 
 
-def get_military_time(time):
+def get_military_time2(time):
     if time[:2] == "12" and time[-2:] == "AM":
         return "00" + time[2:-2]
     elif time[-2:] == "AM":
