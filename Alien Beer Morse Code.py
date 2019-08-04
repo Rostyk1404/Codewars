@@ -17,7 +17,6 @@
         Test.assert_equals(morse_converter(".----"), 1)
         Test.assert_equals(morse_converter("..----------..."), 207)
         Test.assert_equals(morse_converter("----.--.....---...--"), 9723)
-
 """
 
 

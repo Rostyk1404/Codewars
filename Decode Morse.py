@@ -38,7 +38,6 @@
         ----- .---- ..--- ...-- ....- ..... -.... --... ---.. ----."), "abcdefghijklmnopqrstuvwxyz0123456789",
         "Double-check that you cover the entire required alphabet")
         Test.assert_equals(decode(""), "")
-
 """
 
 

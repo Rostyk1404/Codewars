@@ -19,7 +19,6 @@
     Sample Tests:
 
         Test.assert_equals(validPhoneNumber("(123) 456-7890"), True)
-
 """
 import re
 
