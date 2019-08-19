@@ -36,11 +36,10 @@ def alphabet_position(text):
            'k': '11', 'l': '12', 'm': '13',
            'n': '14', 'o': '15', 'p': '16', 'q': '17', 'r': '18', 's': '19', 't': '20', 'u': '21', 'v': '22', 'w': '23',
            'x': '24', 'y': '25', 'z': '26'}
-    new_list = []
-    for x in text.lower():
-        for k,v in dic.items():
-            if k == x:
-                new_list.append(v)
-    return " ".join(new_list)
+    new_list = []  # creating new list in which we will append result
+    for x in text.lower():  # changing all x(letters) to lower case
+        for k, v in dic.items():  # searching an elements
+            if k == x:  # checking if key is same a x
+                new_list.append(v)  # if same we will append value (numbers) in list
+    return " ".join(new_list)  # converting list to string and adding spaces between number
 
-print(alphabet_position("The sunset sets at twelve o' clock."))
