@@ -39,10 +39,7 @@ def cakes(recipe, available):
     # TODO: insert code
     new_list = []
     for x in recipe.keys():
-        if x in available.keys():
-            new_list.append(available[x] // recipe[x])
-        return sum(new_list)
-    return 0
-
-
-print(cakes(recipe, available))
+        if x not in available.keys():
+            return 0
+        new_list.append(available[x] // recipe[x])
+    return int(min(new_list))
