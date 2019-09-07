@@ -22,4 +22,16 @@
 
 
 def divisible_by(numbers, divisor):
+    new_list = []
+    for x in numbers:
+        if x % divisor == 0:
+            new_list.append(x)
+    return new_list
+
+
+def divisible_by(numbers, divisor):
+    return list(filter(lambda x: x % divisor == 0, numbers))
+
+
+def divisible_by(numbers, divisor):
     return list(x for x in numbers if x % divisor == 0)
