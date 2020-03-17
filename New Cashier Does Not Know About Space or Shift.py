@@ -45,4 +45,5 @@ def get_order(order):
         new_list.extend(x.capitalize() for a in range(order.count(x.lower())))
     return " ".join(new_list)
 
+
 print(get_order("milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza"))
